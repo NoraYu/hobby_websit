@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:insert="base::headbar"></div>
+
+<body>
+
+<div th:insert="index::navbar"></div>
+
+
+<div class="container">
+    <div class="jumbotron">
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Whole Band</h4>
+                    <p><img class="card-img-top" src="http://tianguo.band/wp-content/uploads/2016/07/A00009770.jpg" sizes="(max-width: 1600px) 100vw, 1600px">
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Wearing ancient Chinese costumes</h4>
+                    <p><img class="card-img-top" src="http://tianguo.band/wp-content/uploads/2016/07/A00063770.jpg"  sizes="(max-width: 1600px) 100vw, 1600px"></p>
+
+                </div>
+            </div>
+
+    </div>
+    <div th:insert="base::script-boot"></div>
+</body>
+</html>

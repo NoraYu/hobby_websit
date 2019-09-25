@@ -35,6 +35,10 @@ public class HomeController {
     public String timelinePage(){
         return "timeline";
     }
+    @RequestMapping("/wholeBand")
+    public String wholeBand(){
+        return "wholeBand";
+    }
 
 
 
